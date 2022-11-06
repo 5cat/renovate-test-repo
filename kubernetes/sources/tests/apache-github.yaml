@@ -5,6 +5,6 @@ metadata:
   namespace: renovate-system
 spec:
   ref:
-    commit: f3ab5c5
+    commit: 693415b6b3f828c0d28d8c2413c63f93ef9863b6
   url: https://github.com/apache/httpd
 
