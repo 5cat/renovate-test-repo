@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: renovate-repo
+  namespace: renovate-system
+spec:
+  ref:
+    commit: f3ab5c5
+  url: https://github.com/apache/httpd
+
