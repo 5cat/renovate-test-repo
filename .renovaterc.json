@@ -1,0 +1,10 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "dependencyDashboard": true,
+    "kubernetes": {
+        "fileMatch": ["kubernetes/.+\\.yaml$"]
+    },
+    "flux": {
+        "fileMatch": ["kubernetes/.+\\.yaml$"]
+    }
+}
